@@ -4,15 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
     <title>Game.in</title>
+    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
     <link href="assets/css/product.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
-  <nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
-    <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
+  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center site-header fixed-top " style="background-color: white;">
+    <a href="/" class="navbar-brand d-flex w-50 mr-auto">Logo</a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -20,16 +22,18 @@
           <a class="nav-link" href="#">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="esport.php">E-Sport</a>
+          <a class="nav-link" href="#">E-Sport</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
+        <li>
+          <form class="form-inline my-2 my-lg-0">
+            
+          </form>
+        </li>
       </ul>
-        
     </div>
-      
-    <a href="/" class="navbar-brand src-bg" style="background-color:yellow;"><img class="src" src="assets/gambar/src.png" ></a>
   </nav>
   <div class="content">
     <main role="main">
@@ -41,7 +45,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
@@ -51,7 +55,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -61,7 +65,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -81,61 +85,7 @@
         </a>
       </div>
       <!--carousel end-->
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <h2 style="color: black; text-align: center;padding: 15px;">Top Game News</h2>
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" src="assets/gambar/g1.jpg">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div class="">
         <div class="container ">
           <div class="row mb-2 my-5">
@@ -155,7 +105,7 @@
               </div>
             </div>
             <aside class="col-md-4 blog-sidebar ml-auto">
-              <div class="p-3 mb-3 bg-light rounded">
+              <div class="p-3 mb-3 rounded">
                 <h4 class="font-italic">Category</h4>
               </div>
               <div class="p-3">
