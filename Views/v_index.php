@@ -13,8 +13,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
   </head>
-  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center site-header fixed-top " style="background-color: white;">
-    <a href="/" class="navbar-brand d-flex w-50 mr-auto">Logo</a>
+  <nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white; padding:-1px !important;">
+    <a href="/" class="navbar-brand" style="background-color:#373435;"><img style="width:50px;margin-left:20px;margin-right:20px" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -46,7 +46,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
@@ -56,7 +56,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -92,7 +92,7 @@
           <div class="row">
             <div class="col-md-3">
               <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="assets/gambar/g1.jpg">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
