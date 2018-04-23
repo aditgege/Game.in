@@ -27,13 +27,12 @@
           <a class="nav-link" href="#">About</a>
         </li>
         <li>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </li>
       </ul>
+        
     </div>
+      
+    <a href="/" class="navbar-brand src-bg" style="background-color:yellow;"><img class="src" src="assets/gambar/src.png" ></a>
   </nav>
   <div class="content">
     <main role="main">

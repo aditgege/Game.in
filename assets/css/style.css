@@ -1,5 +1,5 @@
 body{
-    padding-top: 0px !important;
+    padding-top: 50px !important;
 }
 .navbar{
     height: 50px;
@@ -8,6 +8,7 @@ body{
 .navbar-brand{
     height: 100% !important;
     width: auto;
+    margin: 0 !important;
 }
 .logo{
     margin-top: 8% !important;
@@ -15,4 +16,14 @@ body{
     width:50px;
     margin-left:20px;
     margin-right:20px
+}
+.src{
+    height:33px;
+    margin: 0 auto;
+}
+.src-bg{ 
+    padding-left: 10px !important; 
+    padding-right: 10px !important; 
+    padding-top: 8px !important; 
+    padding-bottom: 8px !important; 
 }
