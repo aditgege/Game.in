@@ -68,7 +68,7 @@
             <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right  pen">
-                <h1>FF VII Remake</h1>
+                <h1>God of War</h1>
                 <p>Realease Now</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
@@ -79,14 +79,14 @@
       <!--carousel end-->
       <div class="album py-5 bg-light">
         <div class="container">
-          <h2 style="color: black; text-align: center;padding: 15px;">Top Game News</h2>
+          <h2 style="color: black; text-align: center;padding-bottom : 15px;">Top Game News</h2>
           <div class="row">
             <div class="col-md-3">
               <div class="sels">
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
-                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -96,8 +96,8 @@
                 <div class="sels">
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
-                            <div class="cardOverlayhome" >
-                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="cardOverlayhome">
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -108,8 +108,8 @@
                 <div class="sels">
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
-                            <div class="cardOverlayhome" >
-                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="cardOverlayhome">
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -120,8 +120,8 @@
                 <div class="sels">
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
-                            <div class="cardOverlayhome" >
-                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="cardOverlayhome">
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -150,8 +150,7 @@
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
-                    <div class="mb-1 text-muted">
-                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                    <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
                 </div>
@@ -164,8 +163,7 @@
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
-                    <div class="mb-1 text-muted">Nov 12 
-                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                    <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
                 </div>
@@ -178,8 +176,7 @@
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
-                    <div class="mb-1 text-muted">Nov 12 
-                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                    <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
                 </div>

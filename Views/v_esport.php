@@ -68,7 +68,7 @@
             <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right  pen">
-                <h1>FF VII Remake</h1>
+                <h1>God of War</h1>
                 <p>Realease Now</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
