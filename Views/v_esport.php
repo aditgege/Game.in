@@ -169,15 +169,12 @@
       
           <!-- pagination -->
           <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <ul class="pagination justify-content-center" >
+              <li class="page-item" ><a style="color:yellow !important; background-color: #373435 !important;" class="page-link" href="#">1</a></li>
+              <li class="page-item"><a style="color:black" class="page-link" href="#">2</a></li>
+              <li class="page-item"><a style="color:Black" class="page-link" href="#">3</a></li>
               <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" style="color:black" href="#">Next</a>
               </li>
             </ul>
           </nav>
