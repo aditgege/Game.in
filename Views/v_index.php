@@ -143,13 +143,11 @@
       </div>
       <div class="">
         <div class="container ">
-      
           <div class="row mb-2 my-5">
             <div class="col-md-6">
               <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 
                 <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-
                 <div class="card-body d-flex flex-column align-items-start">
                   <strong class="d-inline-block mb-2 text-primary">World</strong>
                   <h3 class="mb-0">
@@ -161,13 +159,34 @@
                 </div>
               </div>
             </div>
+            <aside class="col-md-4 blog-sidebar ml-auto">
+              <div class="p-3 mb-3 bg-light rounded">
+                <h4 class="font-italic">Category</h4>
+              </div>
+              <div class="p-3">
+                <h4 class="font-italic">Game</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">March 2014</a></li>
+                  <li><a href="#">February 2014</a></li>
+                  <li><a href="#">January 2014</a></li>
+                  <li><a href="#">December 2013</a></li>
+                  <li><a href="#">November 2013</a></li>
+                  <li><a href="#">October 2013</a></li>
+                  <li><a href="#">September 2013</a></li>
+                </ol>
+              </div>
+              <div class="p-3">
+                <h4 class="font-italic">Genre</h4>
+                <ol class="list-unstyled">
+                  <li><a href="#">GitHub</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li>
+                </ol>
+              </div>
+            </aside>
           </div>
           
-
-
-
-<!-- pagination -->
-
+          <!-- pagination -->
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
               <li class="page-item disabled">
