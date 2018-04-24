@@ -94,7 +94,7 @@
             <div class="col-md-3 ">
               <div class="box-shadow">
                 <div class="sels">
-                    <img src="assets/Gambar/g1.jpg">
+                    <img src="assets/Gambar/g2.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
                                 <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
@@ -106,7 +106,7 @@
               <div class="col-md-3">
               <div class="box-shadow">
                 <div class="sels">
-                    <img src="assets/Gambar/g1.jpg">
+                    <img src="assets/Gambar/g3.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
                                 <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
@@ -118,7 +118,7 @@
               <div class="col-md-3">
               <div class="box-shadow">
                 <div class="sels">
-                    <img src="assets/Gambar/g1.jpg">
+                    <img src="assets/Gambar/g2.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
                                 <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
@@ -152,7 +152,6 @@
                     
                     <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
               <div class="card flex-md-row mb-4 h-md-250">
@@ -165,7 +164,6 @@
                     
                     <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
               <div class="card flex-md-row mb-4 h-md-250">
@@ -178,7 +176,6 @@
                     
                     <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto vv">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
             </div>
