@@ -5,15 +5,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Game.in</title>
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="assets/css/product.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
-  <nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white; padding:-1px !important;">
-    <a href="/" class="navbar-brand" style="background-color:#373435;"><img style="width:50px;margin-left:20px;margin-right:20px" src="assets/gambar/logo.png" ></a>
+  <nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+    <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
