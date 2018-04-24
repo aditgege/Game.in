@@ -86,7 +86,7 @@
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
-                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -97,7 +97,7 @@
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
-                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -109,7 +109,7 @@
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
-                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -121,7 +121,7 @@
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
                             <div class="cardOverlayhome">
-                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihi" href="#">Continue reading</a></p>  
+                                <p class="card-text text-white titleImg" style=" "><a class="gg">Title</a><br>This is space for  a content about.... <br> <a class="ihih" href="#">Continue reading</a></p>  
                             </div>
                         </div>
                 </div>
@@ -145,7 +145,7 @@
               <div class="card flex-md-row mb-4 h-md-250">
                   <div class="sels1">
                 <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
-                <div class="card-body d-flex flex-column align-items-start">
+                <div class="card-body d-flex flex-column align-items-start vv">
                   <h2 class="mb-0">
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
@@ -158,26 +158,26 @@
               <div class="card flex-md-row mb-4 h-md-250">
                   <div class="sels1">
                 <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
-                <div class="card-body d-flex flex-column align-items-start">
+                <div class="card-body d-flex vv flex-column align-items-start">
                   <h2 class="mb-0">
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
                     <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text mb-auto ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
               <div class="card flex-md-row mb-4 h-md-250">
                   <div class="sels1">
                 <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
-                <div class="card-body d-flex flex-column align-items-start">
+                <div class="card-body d-flex vv flex-column align-items-start">
                   <h2 class="mb-0">
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
                     <div class="mb-1 text-muted"><strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text mb-auto vv">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>

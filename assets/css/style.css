@@ -99,7 +99,13 @@ link-active{
 .ihi{
     color: #727272 !important;
 }
+.ihih{
+    color: yellow !important;
+}
 .gg{
     font-size: 20px !important;
     color: yellow !Important;
+}
+.vv{
+    width: 100%;
 }
