@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+  <nav class="navbar box-shadow navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -25,13 +27,21 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li>
-          <form class="form-inline my-2 my-lg-0">
-            
-          </form>
-        </li>
-      </ul>
-    </div>
+        <li class="nav icon-src">
+          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
+            <form class="navbar-form" role="search">
+              <div class="input-group">
+                <input type="text" name="search" placeholder="" class="icon">
+                <div class="input-group-addon">
+                  <img src="assets/gambar/src.png" style="height: 20px;">
+                </div>
+              </div>
+            </form>
+           </a>
+          </li>
+        </ul>
+      </div>
+   
   </nav>
   <div class="content">
     <main role="main">
@@ -45,10 +55,9 @@
           <div class="carousel-item active">
             <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <div class="carousel-caption text-left pen">
+                <h1>Moster Hunter</h1>
+                <p>Get A New Update Monster</p>
               </div>
             </div>
           </div>
@@ -88,7 +97,9 @@
           <h2 style="color: black; text-align: center;padding: 15px;">Top Game News</h2>
           <div class="row">
             <div class="col-md-3">
+<<<<<<< HEAD
               <div class="card mb-3 box-shadow">
+                <a href="detail.php">
                 <img class="card-img-top" src="assets/gambar/g1.jpg">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -97,6 +108,18 @@
                     <small class="text-muted " >9 mins</small>
                   </div>
                 </div>
+                </a>
+=======
+              <div class="box-shadow">
+                <div class="sels">
+  <img src="assets/Gambar/g1.jpg">
+  <div class="card-img-overlay dit">
+    <h5>Card title</h5>
+    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
               </div>
             </div>
             <div class="col-md-3">
@@ -104,10 +127,6 @@
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
                 </div>
               </div>
             </div>
@@ -140,6 +159,7 @@
       </div>
       <div class="">
         <div class="container ">
+            <h1>News</h3>
           <div class="row mb-2 my-5">
             <div class="col-md-6">
               <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -199,6 +219,7 @@
           </nav>
         </div>
       </div>
+      <!-- ds -->
       
       
       <!-- FOOTER -->
@@ -211,10 +232,6 @@
       </footer>
     </main>
   </div>
-  
-  
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
@@ -229,3 +246,29 @@
   });
   </script>
 </body>
+<script type="text/javascript">
+$(function () {
+function closeSearch() {
+var $form = $('.navbar-collapse form[role="search"].active')
+$form.find('input').val('');
+$form.removeClass('active');
+}
+// Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
+$(document).on('click', '.navbar-collapse form[role="search"]:not(.active) button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$form.addClass('active');
+$input.focus();
+});
+// ONLY FOR DEMO // Please use $('form').submit(function(event)) to track from submission
+// if your form is ajax remember to call `closeSearch()` to close the search container
+$(document).on('click', '.navbar-collapse form[role="search"].active button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$('#showSearchTerm').text($input.val());
+closeSearch()
+});
+});
+</script>

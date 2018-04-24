@@ -1,5 +1,5 @@
 body{
-    padding-top: 0px !important;
+    padding-top: 50px !important;
 }
 .navbar{
     height: 50px;
@@ -8,6 +8,7 @@ body{
 .navbar-brand{
     height: 100% !important;
     width: auto;
+    margin: 0 !important;
 }
 .logo{
     margin-top: 8% !important;
@@ -15,4 +16,53 @@ body{
     width:50px;
     margin-left:20px;
     margin-right:20px
+}
+<<<<<<< HEAD
+
+.mainImg{
+    height: 400px; 
+    border-radius: 0px;
+}
+
+.titleImg{
+    border-left: 2px solid yellow; 
+    padding-left: 15px;
+}
+
+.imgThumbnail{
+    height: 225px; 
+    width: 100%; 
+    display: block; 
+    border-radius: 0px;
+}
+
+.cardOverlay{
+    margin-top:30%; 
+    height: 50%; 
+    bottom: 0; 
+    background-color: rgba(0,0,0,0.6);
+=======
+.src{
+    height:33px;
+    margin: 0 auto;
+}
+.src-bg{ 
+    padding-left: 10px !important; 
+    padding-right: 10px !important; 
+    padding-top: 8px !important; 
+    padding-bottom: 8px !important; 
+}
+.sels{
+    width: 100%;
+    height: 400px;
+    overflow: hidden !important;
+}
+.sels img{
+    height: 100%;
+    position: relative;
+}
+.pen h1, p{
+    color: yellow !important;
+/*     #373435; */
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
 }

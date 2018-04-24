@@ -4,17 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
     <title>Game.in</title>
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="assets/css/product.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center site-header fixed-top " style="background-color: white;">
-    <a href="/" class="navbar-brand d-flex w-50 mr-auto">Logo</a>
+  <nav class="navbar box-shadow navbar-collapse navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+    <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
@@ -22,18 +22,26 @@
           <a class="nav-link" href="#">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">E-Sport</a>
+          <a class="nav-link" href="esport.php">E-Sport</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li>
-          <form class="form-inline my-2 my-lg-0">
-            
-          </form>
-        </li>
-      </ul>
-    </div>
+        <li class="nav icon-src">
+          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
+            <form class="navbar-form" role="search">
+              <div class="input-group">
+                <input type="text" name="search" placeholder="" class="icon" ">
+                <div class="input-group-addon">
+                  <img src="assets/gambar/src.png" style="height: 20px;">
+                </div>
+              </div>
+            </form>
+           </a>
+          </li>
+        </ul>
+      </div>
+   
   </nav>
   <div class="content">
     <main role="main">
@@ -45,7 +53,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
@@ -55,7 +63,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -65,7 +73,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -85,7 +93,7 @@
         </a>
       </div>
       <!--carousel end-->
-      
+  
       <div class="">
         <div class="container ">
           <div class="row mb-2 my-5">
@@ -105,7 +113,7 @@
               </div>
             </div>
             <aside class="col-md-4 blog-sidebar ml-auto">
-              <div class="p-3 mb-3 rounded">
+              <div class="p-3 mb-3 bg-light rounded">
                 <h4 class="font-italic">Category</h4>
               </div>
               <div class="p-3">
@@ -159,8 +167,6 @@
       </footer>
     </main>
   </div>
-  
-  
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -177,3 +183,29 @@
   });
   </script>
 </body>
+<script type="text/javascript">
+$(function () {
+function closeSearch() {
+var $form = $('.navbar-collapse form[role="search"].active')
+$form.find('input').val('');
+$form.removeClass('active');
+}
+// Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
+$(document).on('click', '.navbar-collapse form[role="search"]:not(.active) button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$form.addClass('active');
+$input.focus();
+});
+// ONLY FOR DEMO // Please use $('form').submit(function(event)) to track from submission
+// if your form is ajax remember to call `closeSearch()` to close the search container
+$(document).on('click', '.navbar-collapse form[role="search"].active button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$('#showSearchTerm').text($input.val());
+closeSearch()
+});
+});
+</script>
