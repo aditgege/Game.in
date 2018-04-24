@@ -190,28 +190,27 @@
               <div class="p-1 mb-3 ">
                 <h4 class="font-italic " style="margin-top:20px">Category</h4>
               <div class="row " style="padding-top:6px">
-		  		      <hr style="background-color:yellow ; width: 40%; height: 2px; ">
-		  		      <hr style="background-color: black; width: 60%; height: 2px; ">
+		  		      <hr style="background-color:yellow ; width: 40%; height: 1px; ">
+		  		      <hr style="background-color: black; width: 60%; height: 1px; ">
                     </div>
               </div>
               <div class="p-2">
                 <h5 class="font-italic">Game</h4>
                 <ol class="list-unstyled mb-0">
-                  <li><a href="#">March 2014</a></li>
-                  <li><a href="#">February 2014</a></li>
-                  <li><a href="#">January 2014</a></li>
-                  <li><a href="#">December 2013</a></li>
-                  <li><a href="#">November 2013</a></li>
-                  <li><a href="#">October 2013</a></li>
-                  <li><a href="#">September 2013</a></li>
-                </ol>
+                  <li><a href="#">Mobile</a></li>
+                  <li><a href="#">Nitendo</a></li>
+                  <li><a href="#">PC</a></li>
+                  <li><a href="#">Playstation</a></li>
+                  <li><a href="#">Xbox</a></li>
+                  </ol>
               </div>
               <div class="p-2">
                 <h5 class="font-italic">Genre</h4>
                 <ol class="list-unstyled">
-                  <li><a href="#">GitHub</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Adventure</a></li>
+                  <li><a href="#">Horror</a></li>
+                  <li><a href="#">RPG</a></li>
+                  <li><a href="#">Trivia</a></li>
                 </ol>
               </div>
             </aside>
