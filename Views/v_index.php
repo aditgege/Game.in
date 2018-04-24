@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
-  <nav class="navbar box-shadow navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+  <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="">
-        <div class="container mx-5">
+        <div class="container ">
             <h1>News</h3>
           <div class="row mb-2 my-5">
             <div class="col-md-6">
