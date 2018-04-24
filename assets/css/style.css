@@ -27,3 +27,16 @@ body{
     padding-top: 8px !important; 
     padding-bottom: 8px !important; 
 }
+.sels{
+    width: 100%;
+    height: 400px;
+    overflow: hidden !important;
+}
+.sels img{
+    height: 100%;
+    position: relative;
+}
+.pen h1, p{
+    color: yellow !important;
+/*     #373435; */
+}
