@@ -86,3 +86,16 @@ body{
 link-active{
     color: yellow !important;
 }
+.list-unstyled li a{
+    color: #727272;
+}
+.sels1{
+    height: 260px;
+    overflow: hidden !important;
+}
+.sels1 img{
+    height: 100%;
+}
+.ihi{
+    color: #727272 !important;
+}

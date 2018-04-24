@@ -14,8 +14,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/button.css">
 </head>
-<body style="background-color: #f5f5f5;">
-
+<body style="background-color: #f5f5f5;padding-bottom:0px !important;">
 <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
@@ -116,6 +115,13 @@
               <h5>SEE OTHER ></h5>
             </div>
       </div>
-
+    </div>
+<footer class="" style="background-color: #373435; height: 20px ;">
+        <div class="text-center">
+          
+          <p>&copy; 2017-2018 Company, Inc. &middot; <a style="color:yellow !important" href="#">Privacy</a> &middot; <a href="#" style="color:yellow !important">Terms</a></p>
+        </div>
+        
+      </footer>
 </body>
 </html>

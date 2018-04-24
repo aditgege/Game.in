@@ -30,7 +30,7 @@
         </li>
         </ul>
         <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
-                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;margin-top:8px !important;">
            </div>
       </div>
    
@@ -81,7 +81,7 @@
         <div class="container">
           <h2 style="color: black; text-align: center;padding: 15px;">Top Game News</h2>
           <div class="row">
-            <div class="col-md-3 box-shadow">
+            <div class="col-md-3">
               <div class="sels">
                     <img src="assets/Gambar/g1.jpg">
                         <div class="card-img-overlay" style="padding: 1rem !important;">
@@ -132,35 +132,70 @@
       </div>
       <div class="content">
         <div class="container ">
-            <div class="row text-left">
+            <div class="row">
+          <div class=" col-md-7 my-5">
+              <div class="row text-left " style="margin-bottom:20px">
                 <h2 class="col-md-2">News</h2>
-                    <div class="col-md-4 row">
-		  		      <hr style="background-color: black; width: 70%; height: 3px; ">
-		  		      <hr style="background-color: yellow; width: 30%; height: 3px; ">
+                    <div class="col-md-10 row " style="padding-top:6px">
+		  		      <hr style="background-color:yellow ; width: 20%; height: 2px; ">
+		  		      <hr style="background-color: black; width: 80%; height: 2px; ">
                     </div>
 		  	</div>
-          <div class="row mb-2 my-5">
-            <div class="col-md-6">
-              <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            <div class="col-md-10">
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
                 <div class="card-body d-flex flex-column align-items-start">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">
-                  <a class="text-dark" href="#">Featured post</a>
-                  </h3>
-                  <div class="mb-1 text-muted">Nov 12</div>
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#">Continue reading</a>
+                  <a class="ihi" href="#">Continue reading</a>
+                </div>
+              </div>
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a class="ihi" href="#">Continue reading</a>
+                </div>
+              </div>
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
             </div>
-            <aside class="col-md-4 blog-sidebar ml-auto">
-              <div class="p-3 mb-3 bg-light rounded">
-                <h4 class="font-italic">Category</h4>
+          </div>
+          <aside class="col-md-3 blog-sidebar ml-auto">
+              <div class="p-1 mb-3 ">
+                <h4 class="font-italic " style="margin-top:20px">Category</h4>
+              <div class="row " style="padding-top:6px">
+		  		      <hr style="background-color:yellow ; width: 40%; height: 2px; ">
+		  		      <hr style="background-color: black; width: 60%; height: 2px; ">
+                    </div>
               </div>
-              <div class="p-3">
-                <h4 class="font-italic">Game</h4>
+              <div class="p-2">
+                <h5 class="font-italic">Game</h4>
                 <ol class="list-unstyled mb-0">
                   <li><a href="#">March 2014</a></li>
                   <li><a href="#">February 2014</a></li>
@@ -171,8 +206,8 @@
                   <li><a href="#">September 2013</a></li>
                 </ol>
               </div>
-              <div class="p-3">
-                <h4 class="font-italic">Genre</h4>
+              <div class="p-2">
+                <h5 class="font-italic">Genre</h4>
                 <ol class="list-unstyled">
                   <li><a href="#">GitHub</a></li>
                   <li><a href="#">Twitter</a></li>
@@ -180,8 +215,10 @@
                 </ol>
               </div>
             </aside>
-          </div>
-          
+                </div>
+            
+        </div>
+      
           <!-- pagination -->
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
@@ -196,19 +233,19 @@
               </li>
             </ul>
           </nav>
-        </div>
-      </div>
+          
       <!-- ds -->
       
       
       <!-- FOOTER -->
       <footer class="" style="background-color: #373435; height: 20px ;">
-        <div>
+        <div class="text-center">
           
-          <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p>&copy; 2017-2018 Company, Inc. &middot; <a style="color:yellow !important" href="#">Privacy</a> &middot; <a href="#" style="color:yellow !important">Terms</a></p>
         </div>
         
       </footer>
+          </div>
     </main>
   </div>
   <!-- Placed at the end of the document so the pages load faster -->
