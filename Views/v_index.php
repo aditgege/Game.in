@@ -31,7 +31,7 @@
           <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
             <form class="navbar-form" role="search">
               <div class="input-group">
-                <input type="text" name="search" placeholder="" class="icon" ">
+                <input type="text" name="search" placeholder="" class="icon">
                 <div class="input-group-addon">
                   <img src="assets/gambar/src.png" style="height: 20px;">
                 </div>
