@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
+  <nav class="navbar box-shadow navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -25,11 +27,21 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-      </ul>
-        
-    </div>
-      
-    <a href="/" class="navbar-brand src-bg" style="background-color:yellow;"><img class="src" src="assets/gambar/src.png" ></a>
+        <li class="nav icon-src">
+          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
+            <form class="navbar-form" role="search">
+              <div class="input-group">
+                <input type="text" name="search" placeholder="" class="icon" ">
+                <div class="input-group-addon">
+                  <img src="assets/gambar/src.png" style="height: 20px;">
+                </div>
+              </div>
+            </form>
+           </a>
+          </li>
+        </ul>
+      </div>
+   
   </nav>
   <div class="content">
     <main role="main">
@@ -205,10 +217,6 @@
       </footer>
     </main>
   </div>
-  
-  
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
@@ -223,3 +231,29 @@
   });
   </script>
 </body>
+<script type="text/javascript">
+$(function () {
+function closeSearch() {
+var $form = $('.navbar-collapse form[role="search"].active')
+$form.find('input').val('');
+$form.removeClass('active');
+}
+// Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
+$(document).on('click', '.navbar-collapse form[role="search"]:not(.active) button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$form.addClass('active');
+$input.focus();
+});
+// ONLY FOR DEMO // Please use $('form').submit(function(event)) to track from submission
+// if your form is ajax remember to call `closeSearch()` to close the search container
+$(document).on('click', '.navbar-collapse form[role="search"].active button[type="submit"]', function(event) {
+event.preventDefault();
+var $form = $(this).closest('form'),
+$input = $form.find('input');
+$('#showSearchTerm').text($input.val());
+closeSearch()
+});
+});
+</script>
