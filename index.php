@@ -1,12 +1,1 @@
-<?php 
-
-	include 'Views/v_index.php';
-
-
-
-
-
-
-
-
- ?>
+<?=include 'Views/v_index.php'; ?>
