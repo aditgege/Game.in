@@ -150,7 +150,7 @@
                   <a class="text-dark" href="#">Moster Hunter</a>
                   </h2>
                     
-                    <div class="mb-1 text-muted">Nov 12 
+                    <div class="mb-1 text-muted">
                       | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                   <a class="ihi" href="#">Continue reading</a>
