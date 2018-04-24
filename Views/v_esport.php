@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar box-shadow navbar-collapse navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+    <body>
+  <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -27,19 +28,10 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav icon-src">
-          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
-            <form class="navbar-form" role="search">
-              <div class="input-group">
-                <input type="text" name="search" placeholder="" class="icon" ">
-                <div class="input-group-addon">
-                  <img src="assets/gambar/src.png" style="height: 20px;">
-                </div>
-              </div>
-            </form>
-           </a>
-          </li>
         </ul>
+        <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
+           </div>
       </div>
    
   </nav>
@@ -55,42 +47,34 @@
           <div class="carousel-item active">
             <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <div class="carousel-caption text-left pen">
+                <h1>Moster Hunter</h1>
+                <p>Get A New Update Monster</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="carousel-caption  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <div class="carousel-caption text-right  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
       <!--carousel end-->
   

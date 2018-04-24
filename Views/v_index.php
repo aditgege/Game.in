@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar box-shadow navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+    <body>
+  <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -27,19 +28,10 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav icon-src">
-          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
-            <form class="navbar-form" role="search">
-              <div class="input-group">
-                <input type="text" name="search" placeholder="" class="icon">
-                <div class="input-group-addon">
-                  <img src="assets/gambar/src.png" style="height: 20px;">
-                </div>
-              </div>
-            </form>
-           </a>
-          </li>
         </ul>
+        <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
+           </div>
       </div>
    
   </nav>
@@ -58,114 +50,95 @@
               <div class="carousel-caption text-left pen">
                 <h1>Moster Hunter</h1>
                 <p>Get A New Update Monster</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="carousel-caption  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <div class="carousel-caption text-right  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
       <!--carousel end-->
       <div class="album py-5 bg-light">
         <div class="container">
           <h2 style="color: black; text-align: center;padding: 15px;">Top Game News</h2>
           <div class="row">
-            <div class="col-md-3">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <div class="card mb-3 box-shadow">
-                <a href="detail.php">
-                <img class="card-img-top" src="assets/gambar/g1.jpg">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
+            <div class="col-md-3 box-shadow">
+              <div class="sels">
+                    <img src="assets/Gambar/g1.jpg">
+                        <div class="card-img-overlay" style="padding: 1rem !important;">
+                            <div class="cardOverlayhome">
+                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
                 </div>
-                </a>
-=======
-=======
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+            </div>
+            <div class="col-md-3 ">
               <div class="box-shadow">
                 <div class="sels">
-  <img src="assets/Gambar/g1.jpg">
-  <div class="card-img-overlay dit">
-    <h5>Card title</h5>
-    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-<<<<<<< HEAD
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
-=======
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <img src="assets/Gambar/g1.jpg">
+                        <div class="card-img-overlay" style="padding: 1rem !important;">
+                            <div class="cardOverlayhome" >
+                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
+              <div class="col-md-3">
+              <div class="box-shadow">
+                <div class="sels">
+                    <img src="assets/Gambar/g1.jpg">
+                        <div class="card-img-overlay" style="padding: 1rem !important;">
+                            <div class="cardOverlayhome" >
+                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card mb-3 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                    <small class="text-muted " >9 mins</small>
-                  </div>
+              <div class="col-md-3">
+              <div class="box-shadow">
+                <div class="sels">
+                    <img src="assets/Gambar/g1.jpg">
+                        <div class="card-img-overlay" style="padding: 1rem !important;">
+                            <div class="cardOverlayhome" >
+                                <p class="card-text text-white titleImg" style=" ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="content">
         <div class="container ">
-            <h1>News</h3>
+            <div class="row text-left">
+                <h2 class="col-md-2">News</h2>
+                    <div class="col-md-4 row">
+		  		      <hr style="background-color: black; width: 70%; height: 3px; ">
+		  		      <hr style="background-color: yellow; width: 30%; height: 3px; ">
+                    </div>
+		  	</div>
           <div class="row mb-2 my-5">
             <div class="col-md-6">
               <div class="card flex-md-row mb-4 box-shadow h-md-250">

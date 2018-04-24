@@ -6,7 +6,6 @@ body{
     padding: 0px !important;
 }
 .navbar-brand{
-    height: 100% !important;
     width: auto;
     margin: 0 !important;
 }
@@ -17,8 +16,6 @@ body{
     margin-left:20px;
     margin-right:20px
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 .mainImg{
     height: 400px; 
@@ -26,7 +23,7 @@ body{
 }
 
 .titleImg{
-    border-left: 2px solid yellow; 
+    border-left: 3px solid yellow; 
     padding-left: 15px;
 }
 
@@ -36,39 +33,56 @@ body{
     display: block; 
     border-radius: 0px;
 }
-
 .cardOverlay{
-    margin-top:30%; 
-    height: 50%; 
-    bottom: 0; 
+    margin-top:60%;
+    padding: 8px;
+    height: 40%; 
     background-color: rgba(0,0,0,0.6);
-=======
-=======
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+}
+.cardOverlayhome{
+    margin-top:75%;
+    padding: 8px;
+    height: 40%; 
+    background-color: rgba(0,0,0,0.6);
+}
 .src{
     height:33px;
     margin: 0 auto;
 }
-.src-bg{ 
+.src-bg{
+    height: 50px;
     padding-left: 10px !important; 
     padding-right: 10px !important; 
     padding-top: 8px !important; 
     padding-bottom: 8px !important; 
 }
 .sels{
-    width: 100%;
-    height: 400px;
+    height: 330px;
     overflow: hidden !important;
 }
 .sels img{
     height: 100%;
-    position: relative;
 }
-.pen h1, p{
+.pen h1{
     color: yellow !important;
 /*     #373435; */
-<<<<<<< HEAD
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
-=======
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+}
+.container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.carousel-caption{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    right: 0px !important;
+    
+    left: 0px !important;
+    bottom: 0px !important;
+}
+.carousel-indicators .active{
+    background-color: yellow !important;
+}
+link-active{
+    color: yellow !important;
 }

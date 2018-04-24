@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 	<title>Game.in | Berita</title>
-	<!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="assets/css/product.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/album.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/button.css">
 </head>
 <body style="background-color: #f5f5f5;">
 
-<nav class="navbar navbar-light navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+<nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -31,15 +30,13 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li>
-          <form class="form-inline my-2 my-lg-0">
-            
-          </form>
-        </li>
-      </ul>
-    </div>
+        </ul>
+        <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
+           </div>
+      </div>
+   
   </nav>
-
   <div class="contain" style="padding: 50px; padding-top: 100px;">
   	
 	<div class="row" style="width: 100%; margin: 0px;">
