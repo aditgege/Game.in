@@ -27,7 +27,22 @@ body{
     padding-top: 8px !important; 
     padding-bottom: 8px !important; 
 }
+<<<<<<< HEAD
 
 .icon-src{
     margin: 0 !important;
+=======
+.sels{
+    width: 100%;
+    height: 400px;
+    overflow: hidden !important;
+}
+.sels img{
+    height: 100%;
+    position: relative;
+}
+.pen h1, p{
+    color: yellow !important;
+/*     #373435; */
+>>>>>>> a6ed296d22dcb0a08cebdcf7d4e548e6bb8d9abf
 }
