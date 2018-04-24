@@ -18,6 +18,7 @@ body{
     margin-right:20px
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .mainImg{
     height: 400px; 
@@ -42,6 +43,8 @@ body{
     bottom: 0; 
     background-color: rgba(0,0,0,0.6);
 =======
+=======
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
 .src{
     height:33px;
     margin: 0 auto;
@@ -64,5 +67,8 @@ body{
 .pen h1, p{
     color: yellow !important;
 /*     #373435; */
+<<<<<<< HEAD
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+=======
 >>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
 }

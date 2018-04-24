@@ -98,6 +98,7 @@
           <div class="row">
             <div class="col-md-3">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <div class="card mb-3 box-shadow">
                 <a href="detail.php">
                 <img class="card-img-top" src="assets/gambar/g1.jpg">
@@ -110,6 +111,8 @@
                 </div>
                 </a>
 =======
+=======
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
               <div class="box-shadow">
                 <div class="sels">
   <img src="assets/Gambar/g1.jpg">
@@ -119,6 +122,9 @@
     <p class="card-text">Last updated 3 mins ago</p>
   </div>
 </div>
+<<<<<<< HEAD
+>>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+=======
 >>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
               </div>
             </div>
