@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <head>
 <script src="views/js/jquery.js"></script>
 <script src="views/js/bootstrap.min.js"></script>
@@ -270,4 +270,4 @@
 	});
 </script>
 </body>
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+

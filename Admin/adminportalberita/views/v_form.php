@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -332,5 +332,5 @@
 		resize();
 	}
 </script>
->>>>>>> 92c38813fa7c40fcaaedda6307bcef6f53108ad8
+
 </html>
