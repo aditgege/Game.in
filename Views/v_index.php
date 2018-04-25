@@ -20,17 +20,17 @@
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="index.php">News</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="esport.php">E-Sport</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         </ul>
         <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
-                  <img class="src" src="assets/gambar/src.png" style="height: 20px;margin-top:8px !important;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
            </div>
       </div>
    
@@ -142,7 +142,26 @@
                     </div>
 		  	</div>
             <div class="col-md-10">
+            <?php
+              while ($result = mysqli_fetch_object($query)) {
+            ?>
               <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
+                <div class="card-body" style="width: 100%;">
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="detail.php?kode_berita=<?php echo $result->kode_berita?>"><?= $result->judul?></a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning"><?= $result->kategori?></strong></div>
+                  <p class="card-text mb-auto"><?= $result->sub_judul?></p>
+                </div>
+              </div>
+              <?php
+            }
+          ?>
+              <!-- <div class="card flex-md-row mb-4 h-md-250">
                   <div class="sels1">
                 <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
                 <div class="card-body d-flex flex-column align-items-start">
@@ -170,21 +189,7 @@
                   <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
-              <div class="card flex-md-row mb-4 h-md-250">
-                  <div class="sels1">
-                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
-                <div class="card-body d-flex flex-column align-items-start">
-                  <h2 class="mb-0">
-                  <a class="text-dark" href="#">Moster Hunter</a>
-                  </h2>
-                    
-                    <div class="mb-1 text-muted">Nov 12 
-                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="ihi" href="#">Continue reading</a>
-                </div>
-              </div>
-            </div>
+ -->            </div>
           </div>
           <aside class="col-md-3 blog-sidebar ml-auto">
               <div class="p-1 mb-3 ">
@@ -258,29 +263,3 @@
   });
   </script>
 </body>
-<script type="text/javascript">
-$(function () {
-function closeSearch() {
-var $form = $('.navbar-collapse form[role="search"].active')
-$form.find('input').val('');
-$form.removeClass('active');
-}
-// Show Search if form is not active // event.preventDefault() is important, this prevents the form from submitting
-$(document).on('click', '.navbar-collapse form[role="search"]:not(.active) button[type="submit"]', function(event) {
-event.preventDefault();
-var $form = $(this).closest('form'),
-$input = $form.find('input');
-$form.addClass('active');
-$input.focus();
-});
-// ONLY FOR DEMO // Please use $('form').submit(function(event)) to track from submission
-// if your form is ajax remember to call `closeSearch()` to close the search container
-$(document).on('click', '.navbar-collapse form[role="search"].active button[type="submit"]', function(event) {
-event.preventDefault();
-var $form = $(this).closest('form'),
-$input = $form.find('input');
-$('#showSearchTerm').text($input.val());
-closeSearch()
-});
-});
-</script>

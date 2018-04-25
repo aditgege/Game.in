@@ -20,17 +20,17 @@
       
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="index.php">News</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="esport.php">E-Sport</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         </ul>
         <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
-                  <img class="src" src="assets/gambar/src.png" style="height: 20px;margin-top:8px !important; ">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;">
            </div>
       </div>
    
