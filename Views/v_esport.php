@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/searchbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/button.css">
   </head>
-  <nav class="navbar box-shadow navbar-collapse navbar-expand-md bg-faded fixed-top " style="background-color: white;">
+    <body>
+  <nav class="navbar box-shadow navbar-dark navbar-expand-md bg-faded fixed-top " style="background-color: #373435;">
     <a href="/" class="navbar-brand" style="background-color:#373435;"><img  class="logo" src="assets/gambar/logo.png" ></a>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
       
@@ -27,19 +28,10 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav icon-src">
-          <a href="" class="navbar-brand " style="background-color:yellow; padding: 5px;">
-            <form class="navbar-form" role="search">
-              <div class="input-group">
-                <input type="text" name="search" placeholder="" class="icon" ">
-                <div class="input-group-addon">
-                  <img src="assets/gambar/src.png" style="height: 20px;">
-                </div>
-              </div>
-            </form>
-           </a>
-          </li>
         </ul>
+        <div href="" class="navbar-brand src-bg" style="background-color:yellow;">
+                  <img class="src" src="assets/gambar/src.png" style="height: 20px;margin-top:8px !important; ">
+           </div>
       </div>
    
   </nav>
@@ -55,116 +47,150 @@
           <div class="carousel-item active">
             <img class="first-slide" src="assets/Gambar/g1.jpg" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <div class="carousel-caption text-left pen">
+                <h1>Moster Hunter</h1>
+                <p>Get A New Update Monster</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="second-slide" src="assets/Gambar/g2.jpg" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="carousel-caption  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="third-slide" src="assets/Gambar/g3.jpg" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <div class="carousel-caption text-right  pen">
+                <h1>FF VII Remake</h1>
+                <p>Realease Now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
               </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
       <!--carousel end-->
   
-      <div class="">
+      <div class="content">
         <div class="container ">
-          <div class="row mb-2 my-5">
-            <div class="col-md-6">
-              <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            <div class="row">
+          <div class=" col-md-7 my-5">
+              <div class="row text-left " style="margin-bottom:20px">
+                <h2 class="col-md-2">News</h2>
+                    <div class="col-md-10 row " style="padding-top:6px">
+		  		      <hr style="background-color:yellow ; width: 20%; height: 2px; ">
+		  		      <hr style="background-color: black; width: 80%; height: 2px; ">
+                    </div>
+		  	</div>
+            <div class="col-md-10">
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
                 <div class="card-body d-flex flex-column align-items-start">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">
-                  <a class="text-dark" href="#">Featured post</a>
-                  </h3>
-                  <div class="mb-1 text-muted">Nov 12</div>
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
                   <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#">Continue reading</a>
+                  <a class="ihi" href="#">Continue reading</a>
+                </div>
+              </div>
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a class="ihi" href="#">Continue reading</a>
+                </div>
+              </div>
+              <div class="card flex-md-row mb-4 h-md-250">
+                  <div class="sels1">
+                <img class="card-img-right flex-auto d-none d-md-block gt" src="assets/Gambar/g1.jpg"></div>
+                <div class="card-body d-flex flex-column align-items-start">
+                  <h2 class="mb-0">
+                  <a class="text-dark" href="#">Moster Hunter</a>
+                  </h2>
+                    
+                    <div class="mb-1 text-muted">Nov 12 
+                      | <strong class="d-inline-block mb-2 text-warning">PS4</strong></div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a class="ihi" href="#">Continue reading</a>
                 </div>
               </div>
             </div>
-            <aside class="col-md-4 blog-sidebar ml-auto">
-              <div class="p-3 mb-3 bg-light rounded">
-                <h4 class="font-italic">Category</h4>
-              </div>
-              <div class="p-3">
-                <h4 class="font-italic">Game</h4>
+          </div>
+          <aside class="col-md-3 blog-sidebar ml-auto">
+              <div class="p-1 mb-3 ">
+                <h4 class="font-italic " style="margin-top:20px">Category</h4>
+              <div class="row " style="padding-top:6px">
+		  		      <hr style="background-color:yellow ; width: 40%; height: 1px; ">
+		  		      <hr style="background-color: black; width: 60%; height: 1px; ">
+                    </div>
+                  </div>
+              <div class="p-2">
+                <h5 class="font-italic">Game</h4>
                 <ol class="list-unstyled mb-0">
-                  <li><a href="#">March 2014</a></li>
-                  <li><a href="#">February 2014</a></li>
-                  <li><a href="#">January 2014</a></li>
-                  <li><a href="#">December 2013</a></li>
-                  <li><a href="#">November 2013</a></li>
-                  <li><a href="#">October 2013</a></li>
-                  <li><a href="#">September 2013</a></li>
-                </ol>
+                  <li><a href="#">Mobile</a></li>
+                  <li><a href="#">Nitendo</a></li>
+                  <li><a href="#">PC</a></li>
+                  <li><a href="#">Playstation</a></li>
+                  <li><a href="#">Xbox</a></li>
+                  </ol>
               </div>
-              <div class="p-3">
-                <h4 class="font-italic">Genre</h4>
+              <div class="p-2">
+                <h5 class="font-italic">Genre</h4>
                 <ol class="list-unstyled">
-                  <li><a href="#">GitHub</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Adventure</a></li>
+                  <li><a href="#">Horror</a></li>
+                  <li><a href="#">RPG</a></li>
+                  <li><a href="#">Trivia</a></li>
                 </ol>
               </div>
             </aside>
-          </div>
-          
+                </div>
+            
+        </div>
+      
+      
           <!-- pagination -->
           <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <ul class="pagination justify-content-center" >
+              <li class="page-item" ><a style="color:yellow !important; background-color: #373435 !important;" class="page-link" href="#">1</a></li>
+              <li class="page-item"><a style="color:black" class="page-link" href="#">2</a></li>
+              <li class="page-item"><a style="color:Black" class="page-link" href="#">3</a></li>
               <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" style="color:black" href="#">Next</a>
               </li>
             </ul>
           </nav>
-        </div>
-      </div>
+          
+      <!-- ds -->
       
       
       <!-- FOOTER -->
       <footer class="" style="background-color: #373435; height: 20px ;">
-        <div>
+        <div class="text-center">
           
-          <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p>&copy; 2017-2018 Company, Inc. &middot; <a style="color:yellow !important" href="#">Privacy</a> &middot; <a href="#" style="color:yellow !important">Terms</a></p>
         </div>
         
       </footer>
+          </div>
     </main>
   </div>
   <!-- Bootstrap core JavaScript
